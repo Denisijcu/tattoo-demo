@@ -1,0 +1,321 @@
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+p {
+  text-align: justify;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: red;
+}
+
+a:hover {
+  background-color: transparent;
+  color: red;
+
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: auto;
+  min-height: auto;
+}
+
+.label-machine {
+  font-size: 48px;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+  display: none;
+}
+
+#left,
+#right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 88px;
+}
+
+#left {
+  left: 0;
+  background: url(images/left.png) left center repeat-y;
+}
+
+#right {
+  right: 0;
+  background: url(images/right.png) right center repeat-y;
+}
+
+#top,
+#bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 88px;
+}
+
+#top {
+  top: 0px;
+  background: url(images/top.png) top center repeat-x;
+}
+
+#bottom {
+  bottom: 0px;
+  background: url(../images/bottom.png) bottom center repeat-x;
+}
+
+.cool {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+.carousel-item {
+  min-width: 300px;
+  max-width: 300px;
+  margin-top: 0;
+}
+
+#carro {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  min-width: 100%;
+  background: transparent;
+}
+
+.carousel-item img {
+  max-width: 300px;
+  min-width: 300px;
+  box-shadow: 4px 4px 4px transparent;
+  border-radius: 8px;
+
+}
+
+.carousel-item img:hover {
+  border-radius: black;
+  box-shadow: 4px 4px 4px black;
+
+}
+
+
+.gradient {
+  background-image:
+    linear-gradient(to right,
+    DarkRed, white);
+}
+
+.gradient2 {
+  background-image:
+    linear-gradient(to right,
+    red, DarkRed);
+
+}
+
+.gradient3 {
+  background-image:
+    linear-gradient(to right,
+    red, white);
+}
+
+
+
+
+.fixed-action-btn:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.login {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.btn-extended {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.design {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 0.5em;
+  color: black;
+}
+
+.design2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.7em;
+  color: white;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+.section-follow .f4-4x {
+  margin: 5px 10px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 100%;
+  height: 200px;
+}
+
+.card-content {
+  background: transparent;
+  opacity: 0.1;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.DarkRed {
+  background-color: #8B0000;
+}
+
+.main-header {
+  background: url('../images/showcase.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-shop {
+  position: relative;
+  height: 900px;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.section-map {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.parrafo {
+  text-align: justify;
+  padding: 15px;
+}
+
+.gold {
+  color: goldenrod;
+}
+
+.tatoo {
+  font-family: 'Lobster', cursive;
+}
+
+.tatoo:hover {
+  color: gold;
+}
+
+.bible-text {
+  font-family: 'Great Vibes', cursive;
+}
+
+.cristo-style {
+  min-width: 180px;
+  max-width: 180px;
+  min-height: 150px;
+  max-height: 150px;
+  box-shadow: 4px 4px 4px gray;
+  border-radius: 8px;
+
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
